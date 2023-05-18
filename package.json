@@ -1,14 +1,15 @@
 {
   "name": "@stenway/oml-io",
-  "version": "0.2.0",
-  "description": "Stefan John / Stenway / Stenway.com / 2023",
+  "version": "0.3.0",
+  "type": "module",
+  "description": "Read and write OML files",
   "homepage": "https://www.stenway.com",
   "repository": "github:Stenway/OML-IO-TS",
   "bugs": {
     "url": "https://github.com/Stenway/OML-IO-TS/issues"
   },
-  "main": "dist/src/index.js",
-  "types": "dist/src/index.d.ts",
+  "exports": "./dist/src/oml-io.js",
+  "types": "dist/src/oml-io.d.ts",
   "files": [
     "/dist/src"
   ],
@@ -30,19 +31,19 @@
   "author": "Stefan John",
   "license": "MIT",
   "devDependencies": {
-    "@types/jest": "^29.2.4",
-    "@typescript-eslint/eslint-plugin": "^5.47.1",
-    "@typescript-eslint/parser": "^5.47.1",
-    "eslint": "^8.30.0",
-    "jest": "^29.3.1",
-    "tsconfig-paths": "^4.1.2",
-    "ts-jest": "^29.0.3",
+    "@types/jest": "^29.5.1",
+    "@typescript-eslint/eslint-plugin": "^5.59.1",
+    "@typescript-eslint/parser": "^5.59.1",
+    "eslint": "^8.39.0",
+    "jest": "^29.5.0",
+    "ts-jest": "^29.1.0",
     "ts-node": "^10.9.1",
-    "typescript": "^4.8.4"
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.0.4"
   },
   "dependencies": {
-    "@stenway/oml": "^0.2.0",
-    "@stenway/reliabletxt": "^0.5.0",
-    "@stenway/reliabletxt-io": "^0.5.0"
+    "@stenway/oml": "^0.3.0",
+    "@stenway/reliabletxt": "^0.6.0",
+    "@stenway/reliabletxt-io": "^0.6.0"
   }
 }

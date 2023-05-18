@@ -1,7 +1,7 @@
 ﻿import { NoReliableTxtPreambleError, ReliableTxtEncoding } from "@stenway/reliabletxt"
 import { OmlDocument } from "@stenway/oml"
-import { OmlFile } from "../src"
-import * as fs from 'fs'
+import { OmlFile } from "../src/oml-io.js"
+import * as fs from 'node:fs'
 
 function getFilePath(name: string): string {
 	return "test_files/"+name
