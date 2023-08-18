@@ -1,6 +1,6 @@
 {
   "name": "@stenway/oml-io",
-  "version": "0.3.0",
+  "version": "0.7.0",
   "type": "module",
   "description": "Read and write OML files",
   "homepage": "https://www.stenway.com",
@@ -42,8 +42,8 @@
     "typescript": "^5.0.4"
   },
   "dependencies": {
-    "@stenway/oml": "^0.3.0",
-    "@stenway/reliabletxt": "^0.6.0",
-    "@stenway/reliabletxt-io": "^0.6.0"
+    "@stenway/oml": "^0.7.0",
+    "@stenway/reliabletxt": "^0.7.0",
+    "@stenway/reliabletxt-io": "^0.7.0"
   }
 }
